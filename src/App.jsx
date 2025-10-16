@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto">
+    <div className="p-4 w-full px-52 h-screen bg-[whitesmoke] mx-auto text-center">
       <h1 className="text-2xl font-bold mb-4">To-Do App</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} deleteTodo={deleteTodo} />
